@@ -1,0 +1,97 @@
+
+/* CSS Document */
+
+
+
+body{
+  font-family:'Josefin Sans', sans-serif;
+  color:black;
+}
+
+.outer{
+   
+   text-align: center;
+}
+	
+.page{
+	max-width: 1200px;
+ 
+    display: inline-block;
+
+}
+	
+
+
+
+/* HERO IMAGE */
+
+
+	
+.hero_content{
+	width: 100%;
+	height: 60%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:4px solid;
+    border-color:#03afc2;
+	font-size:28px;
+	text-align: center;
+	overflow: auto;
+	
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/* TILES */
+
+.hero_content img{
+	width:100%;
+	height: 40%;
+}
+	
+.side_bar{
+  height:400px;
+  width:300px;
+  border:4px solid;
+  border-color:#03afc2;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+
+	
+.side_bar img{
+   text-align: center;
+	width: 100%;
+	
+}
+
+.side_bar:hover{
+	
+    animation-name: change, border;
+    animation-duration: 1s;
+	animation-fill-mode: forwards;
+	
+	
+    
+    
+    
+    
+}
+
+
+@keyframes change {
+	from {transform:scale(1,1) }
+	to{transform:scale(1.25,1.25) }
+}
+	
+  @keyframes border {
+	from {border-color:#03afc2; }
+	to {border-color:red; }
+	
+	
+}
+	
