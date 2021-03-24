@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+      
+       display: inline-block;
+    }
+
+    .card img{
+		
+      padding: 30px;
+		width:100%;
+        height:auto;
+		-webkit-filter: blur: (20px);
+		filter:blur(25px);
+		transition:.5s ease;
+		
+    }
+
+
+    .center {
+
+     padding: 60% 0;
+     text-align: center;
+    }
+
+
+    
+
+    
+
+
+    .card:hover img{
+		transition: .5s  -webkit-filter ease;
+     -webkit-filter: blur: (0px);
+		filter:blur(0px);
+		 transform: scale(1.5,1.5) rotate(30deg);
+		
+		
+		
+
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  
+       	  <img src="img/llama.png" alt="llama big">
+       </div>
+	</div>
+
+</body>
+</html>
